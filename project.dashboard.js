@@ -7,6 +7,8 @@ let birthday = document.querySelector(`#birthday`);
 let statusUser = document.querySelector(`#statusUser`);
 // let addUser = document.querySelector(`#addUser`);
 let tableUser = document.querySelector(`#tableUser`);
+let search = document.querySelector(`#search`);
+
 // Tao bien phan trang
 let itemPerPage = 6;
 let totalItem = users.length;
@@ -46,6 +48,7 @@ function renderUser() {
 
   tableUser.innerHTML = content;
 }
+
 localStorage.setItem("users", JSON.stringify(users));
 
 // render các trang
@@ -85,3 +88,23 @@ function deletes(index) {
     localStorage.setItem("users", JSON.stringify(users));
   }
 }
+search.addEventListener("change", () => {
+  if (search.value !== "") {
+    let newList = users.filter((user) => user.username.includes(search.value));
+    users = newList;
+    renderUser();
+  } else {
+    users = JSON.parse(localStorage.getItem("users")) || [];
+    renderUser();
+  }
+});
+// function search(){
+//   if (search.value !== "") {
+//     let newList = users.filter((user) => user.username.includes(search.value));
+//     users = newList;
+//     renderUser();
+//   } else {
+//     users = localStorage.setItem("users", JSON.stringify(users)) || [];
+//     renderUser();
+//   }
+// }
