@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in Page</title>
+    <link rel="stylesheet" href="../project CSS/project.signin.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+        integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <table>
+      <td>
+        <h1>
+          <img src="../anh project/sign in page.img/trello logo.png" alt="" />
+        </h1>
+        <h2>Please sign in</h2>
+        <br />
+        <form id="myForm">
+          <br>
+          <input type="text"  id="email" placeholder="Email address" />
+          <br />
+           <small id="errorEmail"></small>
+        </br>
+          <input type="password" id="password"  placeholder="Password" />
+        </br>
+          <small id="errorPass"></small>
+        <br />
+          <input id="remember" type="checkbox" style="width: 15px; height: 15px" />
+          <label>Remember me</label><br />
+        </form>
+        <p>
+          Don`t have an account,
+          <a href="./project.signup.html" style="color: blue">click me!</a>
+        </p>
+        <button id="signin" type="submit">Sign in</button>
+        <div class="footer">© 2025 - Rikkei Education</div>
+      </td>
+    </table>
+  </body>
+  <script src="..//project JS/project.signin.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"
+    integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</html>

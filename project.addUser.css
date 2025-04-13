@@ -1,0 +1,82 @@
+header {
+  margin-left: 3cap;
+}
+.container {
+  width: 80%;
+  left: calc(10%-50px);
+  top: calc(10%-50px);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  margin-left: 2cap;
+}
+h3 {
+  margin-left: 2cap;
+}
+.child1 {
+  width: 25%;
+  height: 100%vh;
+  bottom: 0cap;
+  background-color: rgb(203, 212, 212);
+}
+.child2 {
+  width: 70%;
+  height: 100%vh;
+  background-color: azure;
+}
+.child3 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0cap;
+}
+input {
+  width: 100%;
+  height: 50px;
+}
+#form {
+  display: flex;
+  text-align: center;
+  line-height: 50px;
+  width: 200px;
+  height: 50px;
+  padding: 0cap;
+}
+form {
+  padding: 20px;
+}
+footer {
+  position: relative;
+  margin-left: 100%;
+  margin-right: 0cap;
+  display: flex;
+  padding: 0px;
+  margin-bottom: 50px;
+}
+#btnAdd {
+  position: relative;
+  background-color: blue;
+  color: white;
+  width: 70px;
+  height: 27px;
+}
+#errorEmail,
+#errorUserName,
+#errorPass {
+  color: red;
+  font-size: smaller;
+  font-style: italic;
+}
+#updateUser {
+  position: relative;
+  display: flex;
+  justify-items: end;
+  background-color: blue;
+  color: white;
+  width: 70px;
+  height: 27px;
+}

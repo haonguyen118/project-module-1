@@ -1,0 +1,94 @@
+/* Main → Form */
+table {
+  position: absolute;
+  height: 441.14px;
+  left: calc(50% - 150px);
+  top: calc(50% - 220px);
+  top: 106.43px;
+  background-color: rgb(210, 224, 210);
+}
+/* trello-logo.png */
+img {
+  position: absolute;
+  width: 150px;
+  height: 42.55px;
+  left: calc(50% - 150px / 2);
+  top: calc(50% - 42.55px / 2 - 199.3px);
+
+  background: url();
+}
+/* Heading 1 → Please sign in */
+h2 {
+  position: absolute;
+  width: 164.15px;
+  height: 33px;
+  left: 0px;
+  top: 66.55px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26.5781px;
+  line-height: 34px;
+}
+/* Input */
+
+input {
+  width: 296px;
+  right: 0px;
+  left: 0px;
+  height: 40px;
+
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+}
+* Label → Remember me */ label {
+  position: absolute;
+  width: 105.73px;
+  height: 24px;
+  left: 24px;
+  top: 0px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Button */
+button {
+  box-sizing: border-box;
+  width: 296px;
+  height: 42px;
+  left: 0px;
+  right: 0px;
+  top: calc(50% - 42px / 2 + 127.57px);
+
+  background: #0d6efd;
+  border: 1px solid #0d6efd;
+  border-radius: 6px;
+}
+
+/* © 2025 - Rikkei Education */
+.footer {
+  position: absolute;
+  width: 191.04px;
+  height: 24px;
+  left: 0px;
+  top: 417.14px;
+  margin-bottom: 0cap;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+#errorEmail,
+#errorPass {
+  color: red;
+  font-size: smaller;
+  font-style: italic;
+}

@@ -1,0 +1,64 @@
+header {
+  margin-left: 3cap;
+}
+.container {
+  width: 80%;
+  left: calc(10%-50px);
+  top: calc(10%-50px);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  margin-left: 2cap;
+}
+h3 {
+  margin-left: 2cap;
+}
+.child1 {
+  width: 25%;
+  height: 100%vh;
+  bottom: 0cap;
+  background-color: rgb(203, 212, 212);
+}
+.child2 {
+  width: 70%;
+  height: 100%vh;
+  background-color: white;
+}
+#search {
+  position: relative;
+  margin-left: 70%;
+  margin-bottom: 10px;
+  background-color: azure;
+}
+table {
+  border-radius: 4px;
+  width: 100%;
+}
+table,
+thead,
+th,
+td {
+  border: 1px solid rgb(151, 141, 141);
+  align-items: center;
+  font-size: small;
+}
+td {
+  width: auto;
+  height: 40px;
+  justify-items: center;
+}
+#pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  position: relative;
+}
+.pagination {
+  width: 35px;
+  height: 20px;
+}

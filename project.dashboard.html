@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard page</title>
+    <link rel="stylesheet" href="../project CSS/project.dashboard.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   </head>
+  <body>
+    <header>
+       <img
+          src="../anh project/sign in page.img/logo Trello1.png"
+          width="100px"
+          ;
+          height="18px"
+          ;
+          alt=""
+        />
+    </header>
+    <main class="container">
+      <div class="child1">
+       
+        <br />
+        <br>
+        <h3>YOUR DASHBOARD</h3>
+        <a href="project.dashboard.html"><i class="fa-solid fa-list-check"></i>  User dashboard</a>
+        <br />
+        <br>
+        <a href="./project.add user.html"><i class="fa-regular fa-star"></i> Add new user</a>
+        <br />
+        <br />
+        <br />
+        <br /><hr>
+        <a href="./project.signin.html"><i class="fa-solid fa-right-from-bracket"></i> Sign out</a>
+      </div>
+      <div class="child2">
+        <h3><i class="fa-solid fa-list-check"></i>  User Managerment</h3>
+        <input type="search" id="search" placeholder="search user by name..." style="height: 30px; text-align: start ; right: 5%;">
+        <table id="tableUser">
+            
+            <!-- <i  onclick="updateUser(${users[i]})" class=" edit  fa-solid fa-pen-to-square" ></i>
+             <i  class="  delete  fa-solid fa-trash" style="color: #1f4251;"></i>
+        -->
+        <!-- <tr>
+                <th>User code</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Birthday</th>
+                <th>Status</th>
+                <th>Actions</th>
+        </tr> -->
+        <!-- <tr>
+
+        </tr> -->
+
+
+ </table>
+ <div id="pagination">
+ 
+ </div>
+    </main>
+    <script src="../project JS/project.dashboard.js"></script>
+  </body>
+</html>
